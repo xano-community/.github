@@ -64,10 +64,60 @@ Connect Xano to AI agents and tools.
 
 ---
 
+## 🔌 Integrations
+
+Ready-to-install wrappers for third-party APIs. Each repo ships XanoScript functions you can push straight into your workspace — either by asking Claude Code (with the [Xano MCP](https://github.com/xano-inc/xano-developer-mcp)) to install it, or with `xano workspace:push`.
+
+Browse all integrations with the [`xano-integration`](https://github.com/xano-community?q=topic%3Axano-integration&type=all) topic.
+
+### Payments & Commerce
+
+- [Stripe](https://github.com/xano-community/integration-stripe-payments) — payments, customers, subscriptions, checkout
+- [PayPal](https://github.com/xano-community/integration-paypal-payments) — checkout orders and captures
+- [Square](https://github.com/xano-community/integration-square-payments) — card payments and customers
+- [Plaid](https://github.com/xano-community/integration-plaid-banking) — bank account linking
+- [Shopify](https://github.com/xano-community/integration-shopify-commerce) — product catalog and orders
+
+### Messaging & Communications
+
+- [Slack](https://github.com/xano-community/integration-slack-messaging) — messages, channels, file uploads
+- [Discord](https://github.com/xano-community/integration-discord-messaging) — channel notifications via bot or webhook
+- [Intercom](https://github.com/xano-community/integration-intercom-messaging) — contacts and in-app messages
+- [Twilio](https://github.com/xano-community/integration-twilio-sms) — SMS, WhatsApp, phone verification
+- [Resend](https://github.com/xano-community/integration-resend-email) — transactional email
+- [Mailchimp](https://github.com/xano-community/integration-mailchimp-email) — subscribers and campaigns
+
+### CRM & Support
+
+- [Salesforce](https://github.com/xano-community/integration-salesforce-crm) — leads and record queries
+- [HubSpot](https://github.com/xano-community/integration-hubspot-crm) — contacts and deals
+- [Zendesk](https://github.com/xano-community/integration-zendesk-support) — ticket management
+- [Gorgias](https://github.com/xano-community/integration-gorgias-support) — tickets, messages, customer sync
+
+### Developer Tools
+
+- [GitHub](https://github.com/xano-community/integration-github-issues) — issues and webhooks
+- [GitLab](https://github.com/xano-community/integration-gitlab-devops) — issues, merge requests, webhooks
+- [Jira](https://github.com/xano-community/integration-jira-issues) — issue creation and workflow transitions
+
+### Infrastructure & Monitoring
+
+- [Cloudflare](https://github.com/xano-community/integration-cloudflare-edge) — cache purging and DNS
+- [Datadog](https://github.com/xano-community/integration-datadog-monitoring) — custom events and metrics
+- [PagerDuty](https://github.com/xano-community/integration-pagerduty-incidents) — incident creation and resolution
+- [LaunchDarkly](https://github.com/xano-community/integration-launchdarkly-feature-flags) — feature flag management
+
+### AI & Productivity
+
+- [OpenAI](https://github.com/xano-community/integration-openai-ai) — text completions and embeddings
+- [Google Sheets](https://github.com/xano-community/integration-google-sheets) — read, write, and append rows
+
+---
+
 ## 🔜 What's coming next
 
 We're actively building:
 
 - Starter templates
 - Example backends
-- SDKs and integrations
+- More integrations — [open an issue](https://github.com/xano-community/.github/issues) to request one
