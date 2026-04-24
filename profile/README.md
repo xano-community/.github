@@ -71,18 +71,28 @@ Wrappers for third-party APIs. Each repo ships XanoScript functions you can push
 
 ## 🏗️ Templates
 
-Finished full and partial apps you can fork:
+Finished apps and reusable pieces you can fork.
 
-- [template-full-app-guestbook](https://github.com/xano-community/template-full-app-guestbook) — guestbook backend (XanoScript) + vanilla-JS frontend
-- [template-snippet-slugify](https://github.com/xano-community/template-snippet-slugify) — reusable slug function (snippet — the older term for **action**)
+### Full apps
+
+Each one ships a XanoScript backend you push to your workspace and a single-file HTML frontend that prompts for your Xano instance URL on first load.
+
+- [support-ticketing](https://github.com/xano-community/support-ticketing) — support / helpdesk ticketing with SLAs, priorities, categories, comments, dashboard
+- [asset-tracking](https://github.com/xano-community/asset-tracking) — IT asset inventory with assignments, maintenance logs, locations, categories
+- [purchase-approvals](https://github.com/xano-community/purchase-approvals) — purchase requisitions with line items, vendors, and sequential multi-step approvals
+- [template-full-app-guestbook](https://github.com/xano-community/template-full-app-guestbook) — guestbook backend + vanilla-JS frontend
+
+### Snippets
+
+- [template-snippet-slugify](https://github.com/xano-community/template-snippet-slugify) — reusable slug function (_snippet_ is the older term for **action**)
 
 ### Scaffolds (for authors)
 
-If you want to publish your own template, integration, or action, start from one of these:
+Starting points for publishing your own template, integration, or action:
 
+- [template-starter-full-app](https://github.com/xano-community/template-starter-full-app) — full-stack app scaffold
 - [template-starter-integration](https://github.com/xano-community/template-starter-integration) — third-party API wrapper scaffold
 - [template-starter-snippet](https://github.com/xano-community/template-starter-snippet) — single-function scaffold (use for actions)
-- [template-starter-full-app](https://github.com/xano-community/template-starter-full-app) — full-stack app scaffold
 
 ---
 
