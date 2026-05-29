@@ -52,6 +52,7 @@ Third-party API wrappers. Each repo ships XanoScript functions you can push stra
 - [integration-github-issues](https://github.com/xano-community/integration-github-issues) — issues and webhooks
 - [integration-gitlab-devops](https://github.com/xano-community/integration-gitlab-devops) — issues, merge requests, webhooks
 - [integration-jira-issues](https://github.com/xano-community/integration-jira-issues) — issue creation and workflow transitions
+- [integration-cursor-mcp](https://github.com/xano-community/integration-cursor-mcp) — 1-click install deeplinks for a Xano-hosted MCP server in Cursor
 
 #### Infrastructure & Monitoring
 - [integration-cloudflare-edge](https://github.com/xano-community/integration-cloudflare-edge) — cache purging and DNS
@@ -61,40 +62,23 @@ Third-party API wrappers. Each repo ships XanoScript functions you can push stra
 
 #### AI & Productivity
 - [integration-openai-ai](https://github.com/xano-community/integration-openai-ai) — text completions and embeddings
+- [integration-gemini-ai](https://github.com/xano-community/integration-gemini-ai) — text, images, video, transcription, and document analysis with Gemini
+- [integration-xai-ai](https://github.com/xano-community/integration-xai-ai) — chat completions with xAI's Grok models
+- [integration-exa-search](https://github.com/xano-community/integration-exa-search) — web search with content extraction and freshness controls
 - [integration-google-sheets](https://github.com/xano-community/integration-google-sheets) — read, write, and append rows
-
-<sub>**Also:** [template-integration-discord](https://github.com/xano-community/template-integration-discord) — the original webhook-focused Discord example, preserved as a reference.</sub>
 
 ---
 
 ## 🏗️ Templates
 
-Finished apps and reusable pieces you can fork.
-
-#### Full apps
-
-Each ships a XanoScript backend you push to your workspace and a single-file HTML frontend that prompts for your Xano instance URL on first load.
+Finished apps you can fork. Each ships a XanoScript backend you push to your workspace and a single-file HTML frontend that prompts for your Xano instance URL on first load.
 
 | App | What it is |
 | :--- | :--- |
 | [support-ticketing](https://github.com/xano-community/support-ticketing) | Support / helpdesk ticketing with SLAs, priorities, categories, comments, and a dashboard |
 | [asset-tracking](https://github.com/xano-community/asset-tracking) | IT asset inventory with assignments, maintenance logs, locations, and categories |
 | [purchase-approvals](https://github.com/xano-community/purchase-approvals) | Purchase requisitions with line items, vendors, and sequential multi-step approvals |
-| [template-full-app-guestbook](https://github.com/xano-community/template-full-app-guestbook) | Guestbook backend plus a vanilla-JS frontend |
-
-#### Snippets
-
-- [template-snippet-slugify](https://github.com/xano-community/template-snippet-slugify) — reusable slug function *(snippet is the older term for **action**)*
-
-#### Scaffolds
-
-Starting points for publishing your own template, integration, or action.
-
-| Scaffold | Use for |
-| :--- | :--- |
-| [template-starter-full-app](https://github.com/xano-community/template-starter-full-app) | Full-stack app |
-| [template-starter-integration](https://github.com/xano-community/template-starter-integration) | Third-party API wrapper |
-| [template-starter-snippet](https://github.com/xano-community/template-starter-snippet) | Single function (use for actions) |
+| [client-intake](https://github.com/xano-community/client-intake) | Client intake / CRM app for capturing and managing inbound leads |
 
 ---
 
@@ -116,7 +100,7 @@ Got an idea for another? [Open an issue](https://github.com/xano-community/.gith
 
 ## ⚡ Actions
 
-*Coming soon.* Want to contribute one? [Open an issue](https://github.com/xano-community/.github/issues) with your idea, or start from [`template-starter-snippet`](https://github.com/xano-community/template-starter-snippet).
+*Coming soon.* Want to contribute one? [Open an issue](https://github.com/xano-community/.github/issues) with your idea.
 
 ---
 
